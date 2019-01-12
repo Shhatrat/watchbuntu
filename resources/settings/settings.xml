@@ -9,7 +9,7 @@
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.ForegroundColor" title="@Strings.ForegroundColorTitle">
+    <setting propertyKey="@Properties.TerminalColorTitle" title="@Strings.TerminalColorTitle">
         <settingConfig type="list">
             <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
             <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
@@ -18,8 +18,113 @@
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
+    <setting propertyKey="@Properties.ShowSeconds" title="@Strings.ShowSeconds">
         <settingConfig type="boolean" />
     </setting>
+    
+    
+    <setting propertyKey="@Properties.Data1Color" title="@Strings.Data1Color">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Data2Color" title="@Strings.Data2Color">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Data3Color" title="@Strings.Data3Color">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+
+    <setting propertyKey="@Properties.Data4Color" title="@Strings.Data4Color">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Data5Color" title="@Strings.Data5Color">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+
+    <setting propertyKey="@Properties.Data1Type" title="@Strings.Data1Type">
+        <settingConfig type="list">
+            <listEntry value="DataTime">@Strings.DataTime</listEntry>
+            <listEntry value="DataDate">@Strings.DataDate</listEntry>
+            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
+            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
+            <listEntry value="DataHr">@Strings.DataHr</listEntry>
+            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+        </settingConfig>
+    </setting>
+
+
+    <setting propertyKey="@Properties.Data2Type" title="@Strings.Data2Type">
+        <settingConfig type="list">
+            <listEntry value="DataTime">@Strings.DataTime</listEntry>
+            <listEntry value="DataDate">@Strings.DataDate</listEntry>
+            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
+            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
+            <listEntry value="DataHr">@Strings.DataHr</listEntry>
+            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Data3Type" title="@Strings.Data3Type">
+        <settingConfig type="list">
+            <listEntry value="DataTime">@Strings.DataTime</listEntry>
+            <listEntry value="DataDate">@Strings.DataDate</listEntry>
+            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
+            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
+            <listEntry value="DataHr">@Strings.DataHr</listEntry>
+            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Data4Type" title="@Strings.Data4Type">
+        <settingConfig type="list">
+            <listEntry value="DataTime">@Strings.DataTime</listEntry>
+            <listEntry value="DataDate">@Strings.DataDate</listEntry>
+            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
+            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
+            <listEntry value="DataHr">@Strings.DataHr</listEntry>
+            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Data5Type" title="@Strings.Data5Type">
+        <settingConfig type="list">
+            <listEntry value="DataTime">@Strings.DataTime</listEntry>
+            <listEntry value="DataDate">@Strings.DataDate</listEntry>
+            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
+            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
+            <listEntry value="DataHr">@Strings.DataHr</listEntry>
+            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+        </settingConfig>
+    </setting>
+
 
 </settings>

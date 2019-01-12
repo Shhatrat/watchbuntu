@@ -1,7 +1,19 @@
 <properties>
 
     <property id="BackgroundColor" type="number">0x000000</property>
-    <property id="ForegroundColor" type="number">0xFF0000</property>
-    <property id="UseMilitaryFormat" type="boolean">false</property>
+    <property id="TerminalColorTitle" type="number">0xFF0000</property>
+    <property id="ShowSeconds" type="boolean">false</property>
+    
+    <property id="Data1Color" type="number">0xFF000</property>
+    <property id="Data2Color" type="number">0xFF000</property>
+    <property id="Data3Color" type="number">0xFF000</property>
+    <property id="Data4Color" type="number">0xFF000</property>
+    <property id="Data5Color" type="number">0xFF000</property>
 
+    <property id="Data1Type" type="string">Time</property>    
+    <property id="Data2Type" type="string">Time</property>    
+    <property id="Data3Type" type="string">Time</property>    
+    <property id="Data4Type" type="string">Time</property>    
+    <property id="Data5Type" type="string">Time</property>    
+    
 </properties>

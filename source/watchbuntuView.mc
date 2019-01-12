@@ -11,9 +11,9 @@ class watchbuntuView extends WatchUi.WatchFace {
     }
 
     // Load your resources here
-//    function onLayout(dc) {
+    function onLayout(dc) {
 //        setLayout(Rez.Layouts.WatchFace(dc));
-//    }
+    }
 
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
@@ -47,7 +47,11 @@ class watchbuntuView extends WatchUi.WatchFace {
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
 		dc.clear();
 		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.15, Gfx.FONT_TINY, "user@watch:~$ now", Gfx.TEXT_JUSTIFY_LEFT);
+
+		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.15, Gfx.FONT_TINY, "user@watch", Gfx.TEXT_JUSTIFY_LEFT);
+		dc.drawText(dc.getWidth()* 0.58, dc.getHeight()* 0.15, Gfx.FONT_TINY, ":~$ now", Gfx.TEXT_JUSTIFY_LEFT);
+				
+
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.25, Gfx.FONT_TINY, "[TIME] 2:15:55 PM", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.35, Gfx.FONT_TINY, "[DATE] 11/12/2001", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.45, Gfx.FONT_TINY, "[BATT] [####..] 81%", Gfx.TEXT_JUSTIFY_LEFT);

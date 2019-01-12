@@ -1,10 +1,16 @@
 <strings>
 
+
     <string id="AppName">watchbuntu</string>
 
     <string id="BackgroundColorTitle">Background Color</string>
-    <string id="ForegroundColorTitle">Foreground Color</string>
-    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="TerminalColorTitle">Foreground Color</string>
+
+    <string id="Data1Color">Color of 1 data row</string>
+    <string id="Data2Color">Color of 2 data row</string>
+    <string id="Data3Color">Color of 3 data row</string>
+    <string id="Data4Color">Color of 4 data row</string>
+    <string id="Data5Color">Color of 5 data row</string>
 
     <string id="ColorBlack">Black</string>
     <string id="ColorDarkGray">Dark Gray</string>
@@ -12,5 +18,20 @@
     <string id="ColorWhite">White</string>
     <string id="ColorBlue">Blue</string>
     <string id="ColorRed">Red</string>
+
+    <string id="Data1Type">Data of 1 data row</string>
+    <string id="Data2Type">Data of 2 data row</string>
+    <string id="Data3Type">Data of 3 data row</string>
+    <string id="Data4Type">Data of 4 data row</string>
+    <string id="Data5Type">Data of 5 data row</string>
+
+	<string id="DataTime">Time</string>
+	<string id="DataDate">Date</string>
+	<string id="DataBattery">Battery</string>
+	<string id="DataSteps">Steps</string>
+	<string id="DataHr">Hear rate</string>
+	<string id="DataTemperature">Temperature</string>
+
+	<string id="ShowSeconds">Show seconds</string>
 
 </strings>
