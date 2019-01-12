@@ -72,59 +72,59 @@
 
     <setting propertyKey="@Properties.Data1Type" title="@Strings.Data1Type">
         <settingConfig type="list">
-            <listEntry value="DataTime">@Strings.DataTime</listEntry>
-            <listEntry value="DataDate">@Strings.DataDate</listEntry>
-            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
-            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
-            <listEntry value="DataHr">@Strings.DataHr</listEntry>
-            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+            <listEntry value="0">@Strings.DataTime</listEntry>
+            <listEntry value="1">@Strings.DataDate</listEntry>
+            <listEntry value="2">@Strings.DataBattery</listEntry>
+            <listEntry value="3">@Strings.DataSteps</listEntry>
+            <listEntry value="4">@Strings.DataHr</listEntry>
+            <listEntry value="5">@Strings.DataTemperature</listEntry>
         </settingConfig>
     </setting>
 
-
     <setting propertyKey="@Properties.Data2Type" title="@Strings.Data2Type">
         <settingConfig type="list">
-            <listEntry value="DataTime">@Strings.DataTime</listEntry>
-            <listEntry value="DataDate">@Strings.DataDate</listEntry>
-            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
-            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
-            <listEntry value="DataHr">@Strings.DataHr</listEntry>
-            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+            <listEntry value="0">@Strings.DataTime</listEntry>
+            <listEntry value="1">@Strings.DataDate</listEntry>
+            <listEntry value="2">@Strings.DataBattery</listEntry>
+            <listEntry value="3">@Strings.DataSteps</listEntry>
+            <listEntry value="4">@Strings.DataHr</listEntry>
+            <listEntry value="5">@Strings.DataTemperature</listEntry>
         </settingConfig>
     </setting>
 
     <setting propertyKey="@Properties.Data3Type" title="@Strings.Data3Type">
         <settingConfig type="list">
-            <listEntry value="DataTime">@Strings.DataTime</listEntry>
-            <listEntry value="DataDate">@Strings.DataDate</listEntry>
-            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
-            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
-            <listEntry value="DataHr">@Strings.DataHr</listEntry>
-            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+            <listEntry value="0">@Strings.DataTime</listEntry>
+            <listEntry value="1">@Strings.DataDate</listEntry>
+            <listEntry value="2">@Strings.DataBattery</listEntry>
+            <listEntry value="3">@Strings.DataSteps</listEntry>
+            <listEntry value="4">@Strings.DataHr</listEntry>
+            <listEntry value="5">@Strings.DataTemperature</listEntry>
         </settingConfig>
     </setting>
+
 
     <setting propertyKey="@Properties.Data4Type" title="@Strings.Data4Type">
         <settingConfig type="list">
-            <listEntry value="DataTime">@Strings.DataTime</listEntry>
-            <listEntry value="DataDate">@Strings.DataDate</listEntry>
-            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
-            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
-            <listEntry value="DataHr">@Strings.DataHr</listEntry>
-            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+            <listEntry value="0">@Strings.DataTime</listEntry>
+            <listEntry value="1">@Strings.DataDate</listEntry>
+            <listEntry value="2">@Strings.DataBattery</listEntry>
+            <listEntry value="3">@Strings.DataSteps</listEntry>
+            <listEntry value="4">@Strings.DataHr</listEntry>
+            <listEntry value="5">@Strings.DataTemperature</listEntry>
         </settingConfig>
     </setting>
-
-    <setting propertyKey="@Properties.Data5Type" title="@Strings.Data5Type">
+    
+   <setting propertyKey="@Properties.Data5Type" title="@Strings.Data5Type">
         <settingConfig type="list">
-            <listEntry value="DataTime">@Strings.DataTime</listEntry>
-            <listEntry value="DataDate">@Strings.DataDate</listEntry>
-            <listEntry value="DataBattery">@Strings.DataBattery</listEntry>
-            <listEntry value="DataSteps">@Strings.DataSteps</listEntry>
-            <listEntry value="DataHr">@Strings.DataHr</listEntry>
-            <listEntry value="DataTemperature">@Strings.DataTemperature</listEntry>
+            <listEntry value="0">@Strings.DataTime</listEntry>
+            <listEntry value="1">@Strings.DataDate</listEntry>
+            <listEntry value="2">@Strings.DataBattery</listEntry>
+            <listEntry value="3">@Strings.DataSteps</listEntry>
+            <listEntry value="4">@Strings.DataHr</listEntry>
+            <listEntry value="5">@Strings.DataTemperature</listEntry>
         </settingConfig>
     </setting>
-
-
+    
+    
 </settings>

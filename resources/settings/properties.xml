@@ -10,10 +10,11 @@
     <property id="Data4Color" type="number">0xFF000</property>
     <property id="Data5Color" type="number">0xFF000</property>
 
-    <property id="Data1Type" type="string">Time</property>    
-    <property id="Data2Type" type="string">Time</property>    
-    <property id="Data3Type" type="string">Time</property>    
-    <property id="Data4Type" type="string">Time</property>    
-    <property id="Data5Type" type="string">Time</property>    
+    <property id="Data1Type" type="number">0</property>    
+    <property id="Data2Type" type="number">0</property>    
+    <property id="Data3Type" type="number">0</property>    
+    <property id="Data4Type" type="number">0</property>    
+    <property id="Data5Type" type="number">0</property>    
+ 
     
 </properties>

@@ -4,7 +4,7 @@
     <string id="AppName">watchbuntu</string>
 
     <string id="BackgroundColorTitle">Background Color</string>
-    <string id="TerminalColorTitle">Foreground Color</string>
+    <string id="TerminalColorTitle">Terminal Color</string>
 
     <string id="Data1Color">Color of 1 data row</string>
     <string id="Data2Color">Color of 2 data row</string>
