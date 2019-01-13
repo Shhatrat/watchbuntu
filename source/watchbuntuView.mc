@@ -51,17 +51,14 @@ class watchbuntuView extends WatchUi.WatchFace {
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.15, Gfx.FONT_TINY, "user@watch", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.58, dc.getHeight()* 0.15, Gfx.FONT_TINY, ":~$ now", Gfx.TEXT_JUSTIFY_LEFT);
 				
-
-		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.25, Gfx.FONT_TINY, "[TIME] 2:15:55 PM", Gfx.TEXT_JUSTIFY_LEFT);
+		var pos=  Application.getApp().getProperty("startPositionX");
+		System.println(pos);
+		dc.drawText(dc.getWidth()* pos, dc.getHeight()* 0.25, Gfx.FONT_TINY, "[TIME] 2:15:55 PM", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.35, Gfx.FONT_TINY, "[DATE] 11/12/2001", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.45, Gfx.FONT_TINY, "[BATT] [####..] 81%", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.55, Gfx.FONT_TINY, "[STEP] 823 steps", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.65, Gfx.FONT_TINY, "[L_HR] 74 bpm", Gfx.TEXT_JUSTIFY_LEFT);
 		dc.drawText(dc.getWidth()* 0.2, dc.getHeight()* 0.75, Gfx.FONT_TINY, "user@watch:~$", Gfx.TEXT_JUSTIFY_LEFT);
-
-
-        // Call the parent onUpdate function to redraw the layout
-
     }
 
     // Called when this View is removed from the screen. Save the
