@@ -2,7 +2,7 @@
 
     <property id="BackgroundColor" type="number">0x000000</property>
     <property id="TerminalColorTitle" type="number">0xFF0000</property>
-    <property id="ShowSeconds" type="boolean">false</property>
+    <property id="ShowSeconds" type="boolean">true</property>
 
     <property id="DataTitleColor" type="number">0xFF0000</property>
     
