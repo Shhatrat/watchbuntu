@@ -3,6 +3,8 @@
     <property id="BackgroundColor" type="number">0x000000</property>
     <property id="TerminalColorTitle" type="number">0xFF0000</property>
     <property id="ShowSeconds" type="boolean">false</property>
+
+    <property id="DataTitleColor" type="number">0xFF0000</property>
     
     <property id="Data1Color" type="number">0xFF000</property>
     <property id="Data2Color" type="number">0xFF000</property>

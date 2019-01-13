@@ -2,7 +2,7 @@
 	<properties> 
 
     <property id="startPosition" type="float">0.2</property>
-    <property id="startTerminal" type="float">0.5</property>
+    <property id="startTerminal" type="float">0.58</property>
     <property id="startData" type="float">0.4</property>
    </properties>
 </resources>
