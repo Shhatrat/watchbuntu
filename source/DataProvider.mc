@@ -1,4 +1,8 @@
 using Toybox.System;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
+using Toybox.ActivityMonitor;
+
 
 class DataProvider{
 
@@ -19,12 +23,26 @@ class DataProvider{
 		var type = Application.getApp().getProperty("Data"+position+"Type");
 		switch(type){
 			case 0: return getTime();
-			case 1: return "[DATE]";	
+			case 1: return getDate();	
 			case 2: return getBattery();	
-			case 3: return "[STEP]";	
+			case 3: return getSteps();	
 			case 4: return "[HR_L]";	
-			case 5: return "[TEMP]";	
+			case 5: return getTemp();	
 		}		
+	}
+	
+	function getTemp(){
+		return "34 'C";
+	}
+	
+	function getSteps(){
+		return ActivityMonitor.getInfo().steps +"/"+ ActivityMonitor.getInfo().stepGoal;
+	}
+	
+	function getDate(){
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var dateString = today.day+"/"+today.month+"/"+today.year;
+		return dateString;		
 	}
 	
 	function getBattery(){
