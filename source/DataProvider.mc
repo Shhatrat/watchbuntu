@@ -2,7 +2,8 @@ using Toybox.System;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.ActivityMonitor;
-
+using Toybox.SensorHistory;
+using Toybox.Lang;
 
 class DataProvider{
 
@@ -26,13 +27,25 @@ class DataProvider{
 			case 1: return getDate();	
 			case 2: return getBattery();	
 			case 3: return getSteps();	
-			case 4: return "[HR_L]";	
+			case 4: return getHr();	
 			case 5: return getTemp();	
 		}		
 	}
 	
+		function getHr(){
+    if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getHeartRateHistory)) {
+	        var iterator =  Toybox.SensorHistory.getHeartRateHistory({});
+	        return iterator.next().data;
+	    }
+	    return "----";
+	}
+	
 	function getTemp(){
-		return "34 'C";
+		 if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getTemperatureHistory)) {
+	        var iterator =  Toybox.SensorHistory.getTemperatureHistory({});
+	        return iterator.next().data;
+	    }
+	    return "----";
 	}
 	
 	function getSteps(){
@@ -84,4 +97,7 @@ class DataProvider{
         }
 		return timeString;
 	}
+	
+	var hrEnabled = false;
+	var temperatureEnabled = false;
 }
