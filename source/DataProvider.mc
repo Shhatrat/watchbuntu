@@ -17,6 +17,7 @@ class DataProvider{
 			case 3: return "[STEP]";	
 			case 4: return "[HR_L]";	
 			case 5: return "[TEMP]";	
+			case 6: return "[MEM]";
 		}
 	}
 	
@@ -29,10 +30,16 @@ class DataProvider{
 			case 3: return getSteps();	
 			case 4: return getHr();	
 			case 5: return getTemp();	
+			case 6: return getMemory();
 		}		
 	}
 	
-		function getHr(){
+	
+	function getMemory(){
+		return System.getSystemStats().usedMemory+"/"+System.getSystemStats().totalMemory;	
+	}
+	
+	function getHr(){
     if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getHeartRateHistory)) {
 	        var iterator =  Toybox.SensorHistory.getHeartRateHistory({});
 	        return iterator.next().data;

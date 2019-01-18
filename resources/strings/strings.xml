@@ -35,6 +35,7 @@
     <string id="Data3Type">Data of 3 data row</string>
     <string id="Data4Type">Data of 4 data row</string>
     <string id="Data5Type">Data of 5 data row</string>
+    
 
 	<string id="DataTime">Time</string>
 	<string id="DataDate">Date</string>
@@ -42,6 +43,7 @@
 	<string id="DataSteps">Steps</string>
 	<string id="DataHr">Hear rate</string>
 	<string id="DataTemperature">Temperature</string>
+	<string id="Memory">Memory</string>
 
 	<string id="ShowSeconds">Show seconds</string>
 
