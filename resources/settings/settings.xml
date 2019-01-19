@@ -160,7 +160,10 @@
             <listEntry value="3">@Strings.DataSteps</listEntry>
             <listEntry value="4">@Strings.DataHr</listEntry>
             <listEntry value="5">@Strings.DataTemperature</listEntry>
-            <listEntry value="6">@Strings.Memory</listEntry>            
+            <listEntry value="6">@Strings.Memory</listEntry>    
+            <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
+            <listEntry value="8">@Strings.Os</listEntry>        
+            <listEntry value="9">@Strings.Id</listEntry>        
         </settingConfig>
     </setting>
 
@@ -173,6 +176,9 @@
             <listEntry value="4">@Strings.DataHr</listEntry>
             <listEntry value="5">@Strings.DataTemperature</listEntry>
             <listEntry value="6">@Strings.Memory</listEntry>            
+            <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
+            <listEntry value="8">@Strings.Os</listEntry>        
+            <listEntry value="9">@Strings.Id</listEntry>        
         </settingConfig>
     </setting>
 
@@ -185,6 +191,9 @@
             <listEntry value="4">@Strings.DataHr</listEntry>
             <listEntry value="5">@Strings.DataTemperature</listEntry>
             <listEntry value="6">@Strings.Memory</listEntry>            
+            <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
+            <listEntry value="8">@Strings.Os</listEntry>        
+            <listEntry value="9">@Strings.Id</listEntry>        
         </settingConfig>
     </setting>
 
@@ -198,6 +207,9 @@
             <listEntry value="4">@Strings.DataHr</listEntry>
             <listEntry value="5">@Strings.DataTemperature</listEntry>
             <listEntry value="6">@Strings.Memory</listEntry>            
+            <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
+            <listEntry value="8">@Strings.Os</listEntry>        
+            <listEntry value="9">@Strings.Id</listEntry>        
         </settingConfig>
     </setting>
     
@@ -210,8 +222,10 @@
             <listEntry value="4">@Strings.DataHr</listEntry>
             <listEntry value="5">@Strings.DataTemperature</listEntry>
             <listEntry value="6">@Strings.Memory</listEntry>            
+            <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
+            <listEntry value="8">@Strings.Os</listEntry>        
+            <listEntry value="9">@Strings.Id</listEntry>        
         </settingConfig>
     </setting>
-    
     
 </settings>

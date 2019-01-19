@@ -17,7 +17,10 @@ class DataProvider{
 			case 3: return "[STEP]";	
 			case 4: return "[HR_L]";	
 			case 5: return "[TEMP]";	
-			case 6: return "[MEM]";
+			case 6: return "[MEM ]";
+			case 7: return "[BT     ]";
+			case 8: return "[OS     ]";
+			case 9: return "[ID      ]";
 		}
 	}
 	
@@ -31,9 +34,28 @@ class DataProvider{
 			case 4: return getHr();	
 			case 5: return getTemp();	
 			case 6: return getMemory();
+			case 7: return getBt();
+			case 8: return getOs();
+			case 9: return getId();
 		}		
 	}
 	
+	function getOs(){
+		var version =  System.getDeviceSettings().monkeyVersion;
+		return Lang.format("$1$.$2$.$3$", version);
+	}
+	
+	function getId(){
+		return System.getDeviceSettings().partNumber;
+	}
+	
+	function getBt(){
+		if(System.getDeviceSettings().phoneConnected){
+		 return " no ";
+		}else{
+		 return " yes ";
+		}
+	}	
 	
 	function getMemory(){
 		return System.getSystemStats().usedMemory+"/"+System.getSystemStats().totalMemory;	

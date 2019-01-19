@@ -12,10 +12,10 @@
     <property id="Data4Color" type="number">0xFFFFFF</property>
     <property id="Data5Color" type="number">0xFFFFFF</property>
 
-    <property id="Data1Type" type="number">1</property>    
+    <property id="Data1Type" type="number">0</property>    
     <property id="Data2Type" type="number">2</property>    
-    <property id="Data3Type" type="number">3</property>    
-    <property id="Data4Type" type="number">0</property>    
-    <property id="Data5Type" type="number">6</property>    
+    <property id="Data3Type" type="number">6</property>    
+    <property id="Data4Type" type="number">8</property>    
+    <property id="Data5Type" type="number">9</property>    
      
 </properties>
