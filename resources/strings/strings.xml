@@ -48,7 +48,8 @@
 	<string id="BluetoothConnection">Bluetooth connection</string>
 	<string id="Os">MonkeyC version</string>
 	<string id="Id">Device id</string>
-		
+	<string id="Firmware">Device firmware</string>
+			
 	<string id="ShowSeconds">Show seconds</string>
 
 </strings>

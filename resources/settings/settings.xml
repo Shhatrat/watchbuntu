@@ -164,6 +164,7 @@
             <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
+            <listEntry value="10">@Strings.Firmware</listEntry>        
         </settingConfig>
     </setting>
 
@@ -179,6 +180,7 @@
             <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
+            <listEntry value="10">@Strings.Firmware</listEntry>        
         </settingConfig>
     </setting>
 
@@ -194,6 +196,7 @@
             <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
+            <listEntry value="10">@Strings.Firmware</listEntry>        
         </settingConfig>
     </setting>
 
@@ -210,6 +213,7 @@
             <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
+            <listEntry value="10">@Strings.Firmware</listEntry>        
         </settingConfig>
     </setting>
     
@@ -225,6 +229,7 @@
             <listEntry value="7">@Strings.BluetoothConnection</listEntry>                        
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
+            <listEntry value="10">@Strings.Firmware</listEntry>        
         </settingConfig>
     </setting>
     

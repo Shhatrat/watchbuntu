@@ -21,6 +21,7 @@ class DataProvider{
 			case 7: return "[BT     ]";
 			case 8: return "[OS     ]";
 			case 9: return "[ID      ]";
+			case 10: return "[FV     ]";
 		}
 	}
 	
@@ -37,7 +38,15 @@ class DataProvider{
 			case 7: return getBt();
 			case 8: return getOs();
 			case 9: return getId();
+			case 10: return getFv();
 		}		
+	}
+	
+	function getFv(){
+		var mySettings = System.getDeviceSettings();
+		var version = mySettings.firmwareVersion;
+		var versionString = Lang.format("$1$.$2$", version);
+		return versionString;
 	}
 	
 	function getOs(){
