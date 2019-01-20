@@ -1,0 +1,8 @@
+<resources> 
+	<properties> 
+
+    <property id="startPosition" type="float">0.1</property>
+    <property id="startTerminal" type="float">0.6</property>
+    <property id="startData" type="float">0.37</property>
+   </properties>
+</resources>
