@@ -60,9 +60,9 @@ class DataProvider{
 	
 	function getBt(){
 		if(System.getDeviceSettings().phoneConnected){
-		 return " no ";
-		}else{
 		 return " yes ";
+		}else{
+		 return " no ";
 		}
 	}	
 	
