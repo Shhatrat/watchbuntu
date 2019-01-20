@@ -1,5 +1,5 @@
 # watchbuntu
-Simple, terminal like watchface. Only for geeks!
+Simple, terminal like watchface for garmin devices. Only for geeks! If your device is not supported, but you want get it please send me a message or add topic at Issue tab.
 
 Avaliable data fields:
 - time
