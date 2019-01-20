@@ -62,7 +62,7 @@ class watchbuntuView extends WatchUi.WatchFace {
 		
 		position = 0.25;
 		for (var i = 1 ; i< 6; i+=1){
-		//	dc.setColor(Application.getApp().getProperty("Data"+i+"Color"), Gfx.COLOR_TRANSPARENT);					
+			dc.setColor(Application.getApp().getProperty("Data"+i+"Color"), Gfx.COLOR_TRANSPARENT);					
 			var data = dataProvider.getData(i);
 			dc.drawText(dc.getWidth()* startData, dc.getHeight()* position, Gfx.FONT_TINY, data, Gfx.TEXT_JUSTIFY_LEFT);
 			position = position + 0.10;
