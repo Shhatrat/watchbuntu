@@ -49,7 +49,12 @@
 	<string id="Os">MonkeyC version</string>
 	<string id="Id">Device id</string>
 	<string id="Firmware">Device firmware</string>
+	<string id="Empty">Empty</string>	
 			
 	<string id="ShowSeconds">Show seconds</string>
 
+	<string id="StartOffset">Offset</string>
+	<string id="Margin">Margin between items</string>
+	<string id="FontSize">Font size [1-17]</string>
+	<string id="ShowTitles">Show titles</string>
 </strings>

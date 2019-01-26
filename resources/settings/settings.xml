@@ -58,7 +58,11 @@
     <setting propertyKey="@Properties.ShowSeconds" title="@Strings.ShowSeconds">
         <settingConfig type="boolean" />
     </setting>
+    <setting propertyKey="@Properties.ShowTitles" title="@Strings.ShowTitles">
+        <settingConfig type="boolean" />
+    </setting>
     
+  
     
     <setting propertyKey="@Properties.Data1Color" title="@Strings.Data1Color">
         <settingConfig type="list">
@@ -165,6 +169,7 @@
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
             <listEntry value="10">@Strings.Firmware</listEntry>        
+            <listEntry value="11">@Strings.Empty</listEntry>
         </settingConfig>
     </setting>
 
@@ -181,6 +186,7 @@
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
             <listEntry value="10">@Strings.Firmware</listEntry>        
+            <listEntry value="11">@Strings.Empty</listEntry>
         </settingConfig>
     </setting>
 
@@ -197,6 +203,7 @@
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
             <listEntry value="10">@Strings.Firmware</listEntry>        
+            <listEntry value="11">@Strings.Empty</listEntry>
         </settingConfig>
     </setting>
 
@@ -214,6 +221,7 @@
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
             <listEntry value="10">@Strings.Firmware</listEntry>        
+            <listEntry value="11">@Strings.Empty</listEntry>
         </settingConfig>
     </setting>
     
@@ -230,7 +238,20 @@
             <listEntry value="8">@Strings.Os</listEntry>        
             <listEntry value="9">@Strings.Id</listEntry>        
             <listEntry value="10">@Strings.Firmware</listEntry>        
+            <listEntry value="11">@Strings.Empty</listEntry>
         </settingConfig>
     </setting>
     
+   <setting propertyKey="@Properties.StartOffset" title="@Strings.StartOffset">
+        <settingConfig type="numeric"/>
+    </setting>
+    
+   <setting propertyKey="@Properties.Margin" title="@Strings.Margin">
+        <settingConfig type="numeric"/>
+    </setting>
+
+   <setting propertyKey="@Properties.FontSize" title="@Strings.FontSize">
+        <settingConfig type="numeric"/>
+    </setting>
+ 
 </settings>

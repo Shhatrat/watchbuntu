@@ -3,6 +3,7 @@
     <property id="BackgroundColor" type="number">0x000000</property>
     <property id="TerminalColorTitle" type="number">0x00FF00</property>
     <property id="ShowSeconds" type="boolean">false</property>
+    <property id="ShowTitles" type="boolean">true</property>    
 
     <property id="DataTitleColor" type="number">0xFFFFFF</property>
     
@@ -17,5 +18,9 @@
     <property id="Data3Type" type="number">6</property>    
     <property id="Data4Type" type="number">8</property>    
     <property id="Data5Type" type="number">10</property>    
-     
+    
+    
+    <property id="StartOffset" type="float">0.1</property>    
+    <property id="Margin" type="float">1.05</property>    
+    <property id="FontSize" type="number">1</property>         
 </properties>

@@ -22,6 +22,7 @@ class DataProvider{
 			case 8: return "[OS     ]";
 			case 9: return "[ID      ]";
 			case 10: return "[FV     ]";
+			case 11: return "";
 		}
 	}
 	
@@ -39,6 +40,7 @@ class DataProvider{
 			case 8: return getOs();
 			case 9: return getId();
 			case 10: return getFv();
+			case 11: return "";
 		}		
 	}
 	
